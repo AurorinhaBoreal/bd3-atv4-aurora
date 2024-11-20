@@ -4,6 +4,7 @@ This repository revolves around mongoDB and his feature of easily storing files 
 
 # Structure
 
+```
 --|
   |- config -|
   |          |- createDCollection    # Create the collection that is used
@@ -15,3 +16,4 @@ This repository revolves around mongoDB and his feature of easily storing files 
              |- inOrder              # Show the messages from the newest to the oldest
              |- inInvertedOrder      # Show the messages from the odlest to the newest
              |- specificPart         # Show a message that has a specific word or phrase
+```
