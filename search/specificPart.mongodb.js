@@ -4,6 +4,6 @@ const collection = "BD3_ATV4_MESSAGES"
 
 use(database)
 
-db[collection].find(
+db.getCollection(collection).find(
     {"message": /crashed/}
 )

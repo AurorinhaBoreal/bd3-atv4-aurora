@@ -4,4 +4,4 @@ const collection = "BD3_ATV4_MESSAGES"
 
 use(database)
 
-db[collection].deleteMany({})
+db.getCollection(collection).deleteMany({})

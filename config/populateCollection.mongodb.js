@@ -4,7 +4,7 @@ const collection = "BD3_ATV4_MESSAGES"
 
 use(database)
 
-db[collection].insertMany(
+db.getCollection(collection).insertMany(
     [
         {
             "message": "The system crashed again. I think we’re out of options.",
